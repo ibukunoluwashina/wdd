@@ -7,18 +7,17 @@
  nav a{
     text-align: center;
  }
- hero-msg h1{
+ #hero-msg h1{
     text-align: center;
  }
-
- hero-msg h4{
+ #hero-msg h4{
     text-align: center;
  }
  .button-box{
-    text-align: cente
+    text-align: center;
  }
  main section{
-    text-align: cente
+    text-align: center;
  }
 
 .backgroun{
@@ -26,11 +25,106 @@
 }
 
 body {
-    background-color: #fcfbfb; 
+    background-color:#fcfbfb; 
 }
 header {
-    background-color:rgba(20,30,13, .7);
+    background-color:lightblue;
 }
 nav a:hover {
+    background-color:black;
+}
+.book{
+    background-color:black;
+}
+.join{
     background-color: black;
 }
+.book:hover{
+    background-color: blue;
+}
+.join:hover{
+    background-color:blue
+}
+#background{
+    background-color: bisque;
+}
+.msg{
+    background-color: black;
+}
+footer{
+    background-color:orange ;
+}
+nav a{
+    background-color: #fcfbfb;
+}
+nav a:hover{
+    background-color: #fcfbfb;
+}
+.home-title{
+    background-color:white;
+}
+h4{
+    background-color: #fcfbfb;
+}
+.book{
+    background-color: lightpink;
+}
+.join{
+    background-color: red;
+}
+.book:hover{
+    background-color: #fcfbfb;
+}
+.join:hover{
+    background-color: blueviolet;
+}
+.msg h2{
+    background-color: black;
+}
+.msg p{
+    background-color: black;
+}
+footer{
+    background-color: black;
+}
+footer a{
+    background-color: black;
+}
+footer a:hover{
+    background-color: white;
+}
+.logo class{
+    width: 80px;
+}
+.icon {
+    width: 80px;
+}
+#hero-img{
+    width: 100%;
+}
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}  
+.book{
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none; 
+}
+.join{
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none; 
+}
+footer a{
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none; 
+}
+footer p {
+    font-size: 1.2em;
+}    
+footer p a:hover {
+    text-decoration: underline;
+} 
