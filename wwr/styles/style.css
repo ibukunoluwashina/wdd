@@ -9,23 +9,44 @@
  }
  #hero-msg h1{
     text-align: center;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
  }
  #hero-msg h4{
     text-align: center;
  }
+ .msg p{
+    font-size: .8em;
+    line-height: 1.5em
+ } 
+.msg p{
+    padding-bottom: 15px;
+}  
  .button-box{
     text-align: center;
  }
  main section{
     text-align: center;
  }
-
+ .rivers-card{
+    margin: 200px 0;
+ }
+ .camping-card{
+    margin: 200px 0;
+ }
+ .rapids-card{
+    margin: 200px 0;
+ }
 .backgroun{
     height: 725px;
 }
-
 body {
     background-color:white; 
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color:lightblue;
@@ -35,13 +56,12 @@ nav a:hover {
     background-color:black;
 }
 nav {
-    /* height: 2.5rem; */
     padding: 1rem;
 }
 nav a {
     color: black;
     margin: 2em;
-    padding: 10px;
+    padding: 35px;
 }
 nav a:hover{
     background-color: hsl(0, 1%, 25%);
@@ -49,28 +69,42 @@ nav a:hover{
 }
 .book{
     background-color:black;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join{
     background-color: black;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
 }
 .book:hover{
-    background-color: blue;
+    background-color: red;
+    color: black;
 }
 .join:hover{
     background-color:blue
+}
+.joint:hover{
+    border-radius: 5px;
 }
 #background{
     background-color: bisque;
 }
 .msg{
     background-color: black;
+    padding: 35px; 
 }
-footer{
-    background-color:orange ;
-}
+/* footer{ */
+    /* background-color:orange ; */
+    /* padding: 25px 50px; */
+/* } */
 
 .home-title{
     background-color:white;
+    margin-top: 10px;
 }
 h4{
     background-color: #fcfbfb;
@@ -91,10 +125,12 @@ h4{
     color: white;
     padding: 1rem;
     margin: 2rem 0;
+    line-height: 1.5em
 }
 footer{
     background-color: black;
-    padding: 2rem;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     background-color: black}
@@ -103,9 +139,11 @@ footer a:hover{
 }
 .logo class{
     width: 80px;
+    padding-top: 5px;
 }
 .icon {
     width: 80px;
+    padding: 10px;
 }
 #hero-img{
     width: 100%;
@@ -129,6 +167,9 @@ footer a{
     text-align: center;
     color: #fcfbfb;
     text-decoration: none; 
+}
+.social img{
+    padding-top: 15px;
 }
 footer p {
     font-size: 1.2em;
