@@ -29,9 +29,23 @@ body {
 }
 header {
     background-color:lightblue;
-}
+    padding: 1rem 2rem;
+    }
 nav a:hover {
     background-color:black;
+}
+nav {
+    /* height: 2.5rem; */
+    padding: 1rem;
+}
+nav a {
+    color: black;
+    margin: 2em;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: hsl(0, 1%, 25%);
+    color: white;
 }
 .book{
     background-color:black;
@@ -54,12 +68,7 @@ nav a:hover {
 footer{
     background-color:orange ;
 }
-nav a{
-    background-color: #fcfbfb;
-}
-nav a:hover{
-    background-color: #fcfbfb;
-}
+
 .home-title{
     background-color:white;
 }
@@ -78,18 +87,17 @@ h4{
 .join:hover{
     background-color: blueviolet;
 }
-.msg h2{
-    background-color: black;
-}
-.msg p{
-    background-color: black;
+.msg {
+    color: white;
+    padding: 1rem;
+    margin: 2rem 0;
 }
 footer{
     background-color: black;
+    padding: 2rem;
 }
 footer a{
-    background-color: black;
-}
+    background-color: black}
 footer a:hover{
     background-color: white;
 }
@@ -124,6 +132,7 @@ footer a{
 }
 footer p {
     font-size: 1.2em;
+    color: white;
 }    
 footer p a:hover {
     text-decoration: underline;
