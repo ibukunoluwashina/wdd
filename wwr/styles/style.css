@@ -1,6 +1,6 @@
-@import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap%27);
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&family=Roboto&display=swap');
 
-.content {
+#content {
     max-width: 1600px; 
     margin: 0 auto;
  }
@@ -30,9 +30,8 @@
  main section img {
     box-sizing: border-box;
 }
- .card-img selector{
-    border: 10px;
-    border-color: black;   
+ .card-img {
+    border: 10px solid lightblue;  
  }
  .rivers-card{
     margin: 200px 0;
@@ -43,16 +42,18 @@
  .rapids-card{
     margin: 200px 0;
  }
-.backgroun{
+#backgroun{
     height: 725px;
 }
 body {
     background-color:white; 
     margin: 0;
     padding: 0;
+    font-family: roboto,arial, sans-serif;
 }
 h2 {
     margin: 0;
+    font-family:"Inter Tight",arial, sans-serif;
 }
 header {
     background-color:lightblue;
