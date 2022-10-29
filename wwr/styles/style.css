@@ -58,8 +58,8 @@
     /* display: grid; */
     /* grid-column: repeat(10, 1fr); */
  /* } */
- .card-img, .mountains {
-    width: 100%;
+ /* .card-img, .mountains {
+    width: 100%; */
 }
 .rivers-card{
     grid-column: 2/4;
