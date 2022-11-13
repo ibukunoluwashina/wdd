@@ -304,3 +304,35 @@ footer p a:hover {
         margin-top: 25px;
     }
 }
+
+
+/* page 2 */
+
+
+.page2-header {
+    background-color: #6f7364;
+}
+.container-1{
+    /* border: 2px solid tomato; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    ;
+}
+.box-1{
+    width: 35%;
+    /* padding: 100px; */
+    border: 1px solid gray;
+}
+.box-1 img {
+    width: 100%;
+    height: 100%;
+}
+.box-2{
+    width: 40%;
+}
+
+.mar-o {
+   margin-top: 0; 
+}
