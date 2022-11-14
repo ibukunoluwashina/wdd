@@ -331,8 +331,17 @@ footer p a:hover {
 }
 .box-2{
     width: 40%;
+    font-size: 11px;
+    word-spacing: 2px;
+}
+.box-2 h2 {
+    color: tomato;
+    padding: 10px;
 }
 
 .mar-o {
    margin-top: 0; 
+}
+.page-2-heading {
+
 }
