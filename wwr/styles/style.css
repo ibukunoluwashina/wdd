@@ -313,7 +313,6 @@ footer p a:hover {
     background-color: #6f7364;
 }
 .container-1{
-    /* border: 2px solid tomato; */
     padding: 10px;
     display: flex;
     align-items: center;
@@ -329,6 +328,10 @@ footer p a:hover {
     width: 100%;
     height: 100%;
 }
+.box-1 h2{
+    color: tomato;
+    padding: 10px;
+}
 .box-2{
     width: 40%;
     font-size: 11px;
@@ -342,6 +345,6 @@ footer p a:hover {
 .mar-o {
    margin-top: 0; 
 }
-.page-2-heading {
+/* .page-2-heading { */
 
-}
+/* } */
