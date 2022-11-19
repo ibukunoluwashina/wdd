@@ -39,24 +39,21 @@
             </section>
         </div>
         
-        <form action="" method="get" class="form-example">
-            <div class="form-example">
-              <label for="name">Enter your name: </label>
-              <input type="text" name="name" id="name" required>
-            </div>
-            <div class="form-example">
-              <label for="email">Enter your email: </label>
-              <input type="email" name="email" id="email" required>
-            </div>
-            <label for="story">Write a short note:</label>
-
-            <textarea id="story" name="story"
-                     rows="5" cols="33">
-            </textarea>
-            <div class="form-example">
-              <input type="submit" value="Subscribe!">
-            </div>
-            
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+              <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="user_email" />
+              </li>
+              <li>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </li>
+            </ul>
           </form>
           
         <footer>
