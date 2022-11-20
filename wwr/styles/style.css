@@ -345,19 +345,36 @@ footer p a:hover {
 .mar-o {
    margin-top: 0; 
 }
+
+
+/* form */
 form.form-example {
     display: table;
 }
-
+form{
+    width: 40%;
+    margin: 100px auto;
+    border: #6f7364 1px solid; 
+}
 div.form-example {
     display: table-row;
 }
-
+label{
+    text-align: left;
+}
 label, input {
     display: table-cell;
     margin-bottom: 10px;
 }
-
+/* input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+} */
+li{
+    list-style-type: none;
+}
 label {
     padding-right: 10px;
 }
@@ -378,4 +395,33 @@ textarea {
 label {
     display: block;
     margin-bottom: 10px;
+}
+
+.btn-send{
+    border: none;
+    padding:5px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: fit-content;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+.btn-send:hover{
+    background-color: rgba(17, 163, 17, 0.73);
+    transition: all 1s;
+}
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
 }
