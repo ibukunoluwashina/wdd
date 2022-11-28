@@ -1,0 +1,33 @@
+.box{
+    width: 30%;
+    border: 2px solid black;
+    padding: 50px;
+
+}
+p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.container1 p:nth-of-type(2) {text-align: center;}
+.container1 p:nth-of-type(3) {text-align: end}
+
+.container2 {
+    margin-left: 400px;
+}
+
+.container2 p:nth-of-type(2) {text-align: center;}
+.container2 p:nth-of-type(3) {text-align: end;}
+
+.container3{
+    margin-left: 800px;
+}
+.container3 p:nth-of-type(2){text-align:center;}
+.container3 p:nth-of-type(3) {text-align: end;}
+
+.container4{
+    margin-right: 500px;
+}
+.container4 p:nth-of-type(1){text-align:end }
+.container4 p:nth-of-type(2){text-align: center;}
+.container4 p:nth-of-type(3){}
+.container4 p:nth-of-type(4){}
