@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&family=Roboto&display=swap');
+
+#content{ 
+    width: 100%;
+    margin: 0 auto;
+    border: solid black;
+}
+header {
+    border: 2px solid green;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+header a img{
+    margin-left: 100px;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+nav{
+    border: 1px solid tomato;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%
+}
+nav a{
+    text-decoration: none;
+    font-size: 30px;
+}
+#develop{
+    width: 100%;
+    height: 50%;
+    border: 1px solid tomato;
+    align-content: center;
+    display: flex;
+}
+#develop-box{
+    width: 50%;
+}
+#develop-box img{
+    /* margin-bottom: 2rem; */
+    width: 100%;
+    height: 100%;
+    border: 0.5rem solid black;
+}
+#develop-box2 img{
+    /* margin-bottom: 2rem; */
+    width: 100%;
+    height: 100%;
+    border: 0.5rem solid black;
+}
+#cyber-msg{
+    border: 2px solid green;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#foot{
+    border: 2px solid green;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;   
+}
+.social{
+    border: 2px solid green;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+}
