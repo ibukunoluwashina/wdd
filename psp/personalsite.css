@@ -3,23 +3,29 @@
 #content{ 
     width: 100%;
     margin: 0 auto;
-    border: solid black;
+    /* border: solid gray; */
 }
 header {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background-color: turquoise;
+    border-radius: 10px;
 }
 header a img{
     margin-left: 100px;
-    height: 100px;
-    width: 100px;
-    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+}
+header a img :hover{
+    opacity: .6;
+    transform: scale(1.1);
 }
 nav{
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
     text-align: center;
     display: flex;
     align-items: center;
@@ -29,6 +35,9 @@ nav{
 nav a{
     text-decoration: none;
     font-size: 30px;
+    color: black;
+    margin: 2em;
+    padding: 35px;
 }
 #develop{
     width: 100%;
@@ -47,7 +56,6 @@ nav a{
     border: 0.5rem solid black;
 }
 #develop-box2 img{
-    /* margin-bottom: 2rem; */
     width: 100%;
     height: 100%;
     border: 0.5rem solid black;
