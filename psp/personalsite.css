@@ -106,3 +106,39 @@ footer a{
     justify-content: space-evenly;
     width: 30%;
 }
+@media screen and (max-width: 900px) {
+/* page 2 */
+
+#developer{
+    width: 100%;
+    height: 50%;
+    border: 1px;
+    align-content: center;
+}
+#cyber-mesage{
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+   border: 4px;
+}
+#developer-box{
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    border: 4px;
+}
+.cyber-mesage2{
+    border: 2px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: auto;
+    height: fit-content;
+    text-justify: distribute;
+    word-spacing: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+}
