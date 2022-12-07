@@ -197,9 +197,11 @@ footer a{
 }
 .me-title{
     justify-content: center;
-    border: 20px solid white; 
+    border: 50px solid white; 
+    padding: 50px;
 }
 .statement{
     justify-content: center;
-    border: 20px solid white;
+    border: 50px solid white;
+    padding: 50px;
 }
