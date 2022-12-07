@@ -190,13 +190,14 @@ footer a{
     /* align-items: center; */
     justify-content: space-evenly;
     margin: 20px;
+    text-align: center;
 }
 #develope-box{
     justify-content: center;
 }
 .me-title{
     justify-content: center;
-    border: 20px solid white;
+    border: 20px solid white; 
 }
 .statement{
     justify-content: center;
