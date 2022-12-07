@@ -187,13 +187,18 @@ footer a{
 #devp{
     padding: 20px;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-evenly;
     margin: 20px;
-    display: grid;
-    grid-template-columns: ;
 }
-
+#develope-box{
+    justify-content: center;
+}
 .me-title{
-
+    justify-content: center;
+    border: 50px ;
+}
+.statement{
+    justify-content: center;
+    border: 50px;
 }
