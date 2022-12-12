@@ -23,7 +23,7 @@ header a img :hover{
     opacity: .6;
     transform: scale(1.1);
 }
-body{ font-family: "Inter Tight" Arial, Helvetica, sans-serif, Arial, sans-serif;
+body{ font-family: "Inter Tight", Arial, Helvetica, sans-serif, Arial, sans-serif;
 }
 h4{
     font-family: Roboto, Arial, sans-serif;}
